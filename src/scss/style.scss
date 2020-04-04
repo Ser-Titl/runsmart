@@ -1,8 +1,28 @@
-.main {
-	color: red;
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: local("MuseoSansCyrl-500"), url("../fonts/MuseoSansCyrl-500.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
 }
-@mixin neo {
-	.main:hover {
-		color: red;
-	}
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: local("MuseoSansCyrl-300"), url("../fonts/MuseoSansCyrl-300.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: local("MuseoSansCyrl-700"), url("../fonts/MuseoSansCyrl-700.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@import "null_style";
+@import "variables";
+@import "block";
+@import "header";
+@import "promo";
+@import "profit";
+
+body {
+	font-family: MuseoSansCyrl;
 }

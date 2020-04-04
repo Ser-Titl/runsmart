@@ -1,0 +1,43 @@
+.profit {
+	background-color: #f6f6f6;
+	text-align: center;
+	padding: 69px 10px 77px 10px;
+
+	&__header {
+		font-size: 30px;
+		font-weight: 700;
+		margin: 0 0 65px 0;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__col {
+		flex: 0 1 33.3333%;
+		padding: 0 10px 0 10px;
+		margin-right: 95px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__img {
+	}
+
+	&__title {
+		font-size: 18px;
+		font-weight: 700;
+		padding: 38px 0 26px 0;
+	}
+
+	&__text {
+		font-size: 14px;
+		font-weight: 300;
+		a {
+			color: #ff0000;
+			text-decoration: underline;
+		}
+	}
+}

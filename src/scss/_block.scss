@@ -1,0 +1,24 @@
+.wrapper {
+	color: #0d0d0d;
+}
+
+//.header,
+//.promo {
+//	padding: 0 100px;
+//}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+.button {
+	background-color: $main-color;
+	border: none;
+	color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 5px;
+	&:hover {
+		background: linear-gradient(to bottom, #c23b3b, $main-color, #c75a01);
+	}
+}

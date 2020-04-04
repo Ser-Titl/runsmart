@@ -1,0 +1,8 @@
+.main {
+	color: red;
+}
+@mixin neo {
+	.main:hover {
+		color: red;
+	}
+}

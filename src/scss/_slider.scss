@@ -1,0 +1,28 @@
+.slider {
+	padding: 81px 0;
+
+	&__carousel {
+		display: flex;
+		align-items: center;
+		max-width: 750px;
+		margin: 0 auto;
+		.slick-prev,
+		.slick-next {
+			border: none;
+			background-color: #fff;
+			position: absolute;
+			top: 40%;
+			img {
+			}
+		}
+		.slick-prev {
+			left: -66-31px;
+		}
+		.slick-next {
+			left: 750+66px;
+		}
+	}
+
+	&__img {
+	}
+}

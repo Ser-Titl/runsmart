@@ -119,6 +119,25 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to bottom, #c23b3b, #c70101, #c75a01);
 }
 
+.form input {
+  display: block;
+  width: 300px;
+  height: 50px;
+  margin: 0 0 15px 0;
+  border-radius: 5px;
+  padding: 0 0 0 20px;
+  color: #4b4b4b;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form button {
+  width: 300px;
+  height: 55px;
+  margin: 5px 0 0 0;
+  font-size: 16px;
+}
+
 .header {
   padding: 21px 10px 21px 10px;
   position: absolute;
@@ -294,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 .profit {
   background-color: #f6f6f6;
   text-align: center;
-  padding: 69px 10px 77px 10px;
+  padding: 69px 10px 80px 10px;
 }
 
 .profit__header {
@@ -327,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 .profit__title {
   font-size: 18px;
   font-weight: 700;
-  padding: 38px 0 26px 0;
+  padding: 42px 0 26px 0;
 }
 
 .profit__text {
@@ -338,6 +357,56 @@ h1, h2, h3, h4, h5, h6 {
 .profit__text a {
   color: #ff0000;
   text-decoration: underline;
+}
+
+.consult {
+  background: url(../img/consult-bg.png) center/cover no-repeat;
+  padding: 100px 10px 92px 10px;
+  color: #fff;
+}
+
+.consult__title {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 165px 80px 0;
+}
+
+.consult__text {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 540px 35px 0;
+}
+
+.slider {
+  padding: 81px 0;
+}
+
+.slider__carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.slider__carousel .slick-prev,
+.slider__carousel .slick-next {
+  border: none;
+  background-color: #fff;
+  position: absolute;
+  top: 40%;
+}
+
+.slider__carousel .slick-prev {
+  left: -97px;
+}
+
+.slider__carousel .slick-next {
+  left: 816px;
 }
 
 body {

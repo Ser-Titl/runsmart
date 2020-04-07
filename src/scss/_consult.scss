@@ -1,0 +1,37 @@
+.consult {
+	background: url(../img/consult-bg.png) center/cover no-repeat;
+	padding: 100px 10px 92px 10px;
+	color: #fff;
+	&__title {
+		font-size: 36px;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 0 165px 80px 0;
+	}
+
+	&__text {
+		font-size: 20px;
+		font-weight: 500;
+		padding: 0 540px 35px 0;
+	}
+
+	&__form {
+	}
+}
+.container {
+}
+.form {
+	&__name {
+	}
+
+	&__tel {
+	}
+
+	&__email {
+	}
+
+	&__button {
+	}
+}
+.button {
+}

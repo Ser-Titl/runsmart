@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>RunSmart</title>
 	<link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/slick.css">
 	<meta name="description" content="Offer for runsmart пульсометр">
 	<meta name="keywords" content="runsmart, пульсометр">
 	<link rel="stylesheet" href="css/style.min.css">
@@ -22,7 +23,7 @@
 					</div>
 					<div class="header__contact">
 						<a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-						<button class="header__button button">заказать звонок</button></div>
+						<button class="header__button button" tabindex="1">заказать звонок</button></div>
 				</div>
 			</div>
 		</header>
@@ -52,7 +53,7 @@
 						</div>
 					</div>
 				</div>
-				<button class="promo__button button">заказать кОНСУЛЬТАЦИЮ</button>
+				<button class="promo__button button" tabindex="2">заказать кОНСУЛЬТАЦИЮ</button>
 				<div class="promo__info">или<a href="" class="promo__catalog">ПЕРЕЙТИ В КАТАЛОГ</a></div>
 
 			</div>
@@ -85,7 +86,34 @@
 				</div>
 			</div>
 		</section>
+		<section class="consult">
+			<div class="container">
+				<h2 class="consult__title">Получите бесплатную консультацию
+					по подбору пульсометра </h2>
+				<div class="consult__text">Просто заполните форму заявки <br>
+					и мы перезвоним вам в течении 10 минут</div>
+				<form action="#" class="consult__form form" method="get">
+					<input type="text" required tabindex="3" class="form__name" name="name" placeholder="Ваше имя">
+					<input type="tel" required tabindex="4" class="form__tel" name="tel" placeholder="Ваш телефон">
+					<input type="email" required tabindex="5" class="form__email" name="email" placeholder="Ваш e-mail">
+					<button tabindex="6" class="form__button button">заказать кОНСУЛЬТАЦИЮ</button>
+				</form>
+			</div>
+		</section>
+		<div class="slider">
+			<div class="container">
+				<div class="slider__carousel">
+					<div> <img src="img/slide1.png" alt="" class="slider__img"> </div>
+					<div> <img src="img/slide2.png" alt="" class="slider__img"> </div>
+					<div> <img src="img/slide3.png" alt="" class="slider__img"> </div>
+				</div>
+			</div>
+		</div>
 	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>

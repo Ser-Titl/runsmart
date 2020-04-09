@@ -11,6 +11,12 @@
 	max-width: 940px;
 	margin: 0 auto;
 }
+.head {
+	font-size: 30px;
+	font-weight: 700;
+
+	text-transform: uppercase;
+}
 .button {
 	background-color: $main-color;
 	border: none;
@@ -18,6 +24,7 @@
 	font-weight: 500;
 	text-transform: uppercase;
 	border-radius: 5px;
+
 	&:hover {
 		background: linear-gradient(to bottom, #c23b3b, $main-color, #c75a01);
 	}
